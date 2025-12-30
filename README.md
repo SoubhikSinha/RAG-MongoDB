@@ -1,1 +1,3 @@
-# RAG-MongoDB
+# `RAG` @ MongoDB
+
+This repository demonstrates a complete **Retrieval-Augmented Generation (RAG)** workflow using **MongoDB as a vector database** and an embedding-first approach powered by the **OpenAI model `text-embedding-3-large`**, showcasing how unstructured data can be ingested, chunked, embedded, and stored as vectors for semantic search. User queries are embedded with the same model, matched against stored vectors using MongoDB’s vector search, and the most relevant documents are retrieved and injected into a prompt for a Large Language Model to generate accurate, context-aware responses. The repo is designed as a practical, end-to-end reference for building scalable, production-ready RAG systems, highlighting best practices in data ingestion, retrieval, and grounded generation while emphasizing how high-quality embeddings from OpenAI improve relevance, reduce hallucinations, and enable knowledge-based AI applications.
